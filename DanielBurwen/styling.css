@@ -6,7 +6,7 @@
 .nav-next a:hover,
 .nav-next a:hover:before,
 .post-navigation .nav-links a:hover,
-.post-navigation .nav-links a:hover:before
+.post-navigation .nav-links a:hover:before,
 .comments-title a:hover,
 .comment-author .fn a:hover,
 .comment-navigation .nav-previous a:hover,
@@ -29,6 +29,11 @@ input.wpcf7-submit:hover,
 .widget_tag_cloud a:hover,
 .site-footer .footer-social-icons a:hover,
 .bottom-news a:hover { color: #f00 !important;}
+
+a { color: #000; }
+a:hover { color: #f00; }
+.nav-menu li a:hover,
+.pf_nav li a:hover { color: #f00; text-decoration: none; }
 
 .social,
 .home-title,
