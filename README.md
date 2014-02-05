@@ -3,6 +3,10 @@ DB-Code
 
 Code for Daniel Burwen
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 Folder Contents:
 
 './DanielBurwen' contains the code for the Word Press site DanielBurwen.com
