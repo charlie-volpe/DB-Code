@@ -30,17 +30,17 @@ He lives in San Francisco and proudly serves as a judge for the <strong>Webby Aw
 <ul class="banners">
 <li class="speaking-banner">
 <a href="http://danielburwen.com.s178151.gridserver.com/?page_id=4875">
-<img id="speak-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speaking-banner.png" />
+<img id="speak-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking-banner.png" />
 </a>
 </li>
 <li class="art-banner">
 <a href="http://danielburwen.com.s178151.gridserver.com/?page_id=3232">
-<img id="art-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-banner.png" />
+<img id="art-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art-banner.png" />
 </a>
 </li>
 <li class="cognito-banner">
 <a href="http://cognitocomics.com/" target="_blank">
-<img id="cog-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cognito-banner.png" />
+<img id="cog-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cognito-banner.png" />
 </a>
 </li>
 </ul>
@@ -49,28 +49,29 @@ He lives in San Francisco and proudly serves as a judge for the <strong>Webby Aw
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script>
-if( $(window).width() < 600 ) {
-    $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cog-ban-sq.png');
-    $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-ban-sq.png');
-    $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speak-ban-sq.png');
+if ( $(window).width() < 800 ) {
+    $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cog_mid.png');
+    $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art_mid.png');
+    $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking_mid.png');
+} else {
+    
 }
 
+
 $(window).resize( function() {
-    if( $(window).width() < 600 ) {
-        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cog-ban-sq.png');
-        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-ban-sq.png');
-        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speak-ban-sq.png');
-    }
-    else {
-        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cognito-banner.png');
-        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-banner.png');
-        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speaking-banner.png');
+    if( $(window).width() < 800 ) {
+        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cog_mid.png');
+        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art_mid.png');
+        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking_mid.png');
+    } else {
+        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cognito-banner.png');
+        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art-banner.png');
+        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking-banner.png');
     }
 });
 </script>
-
 </code>
 
-<div class="bottom-news">
+<div id="bottom-news">
 [content_block post_type="news" posts_per_page="3"]
 </div>
