@@ -2,7 +2,7 @@
 <div class="grid_1"></div>
 <div class="grid_5">
 
-<img style="padding: 0px 35px 35px 35px;" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/Dabu_Headshot.jpg" />
+<img id="dabu-headshot" style="padding: 0px 35px 35px 35px;" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/Dabu_Headshot.jpg" />
 
 </div>
 <div class="grid_5">
@@ -17,12 +17,17 @@ He lives in San Francisco and proudly serves as a judge for the Webby Awards.
 <ul class="social">
 <li class="twitter">
 <a href="https://twitter.com/DanielBurwen" target="_blank">
-<img src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/twitter.png" />
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/twitter.png" />
 </a>
 </li>
 <li class="linkedin">
 <a href="http://www.linkedin.com/in/dabudesign" target="_blank">
-<img src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/linkedin.png" />
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/linkedin.png" />
+</a>
+</li>
+<li class="email">
+<a href="http://www.linkedin.com/in/dabudesign" target="_blank">
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/email.png" />
 </a>
 </li>
 </ul>
@@ -35,27 +40,30 @@ He lives in San Francisco and proudly serves as a judge for the Webby Awards.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script>
-if ( $(window).width() < 800 ) {
+if ( $(window).width() < 720 ) {
     $('.social').css('text-align', 'center');
-    $('.social img').css('width', '64px');
+    $('.social img').css('width', '82px');
     $('.social img').css('height', '64px');
+    $('#dabu-headshot').css('padding', '0px 35px 35px 35px');
 } else {
     $('.social').css('text-align', 'left');
-    $('.social img').css('width', '32px');
+    $('.social img').css('width', '41px');
     $('.social img').css('height', '32px');
+    $('#dabu-headshot').css('padding', '0px');
 }
 
-
 $(window).resize( function() {
-    if( $(window).width() < 800 ) {
+    if( $(window).width() < 720 ) {
         $('.social').css('text-align', 'center');
-        $('.social img').css('width', '64px');
+        $('.social img').css('width', '82px');
         $('.social img').css('height', '64px');
+        $('#dabu-headshot').css('padding', '0px 35px 35px 35px');
     }
     else {
         $('.social').css('text-align', 'left');
-        $('.social img').css('width', '32px');
+        $('.social img').css('width', '41px');
         $('.social img').css('height', '32px');
+        $('#dabu-headshot').css('padding', '0px');
     }
 });
 </script>
