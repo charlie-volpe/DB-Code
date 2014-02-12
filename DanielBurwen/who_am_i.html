@@ -7,12 +7,12 @@
 </div>
 <div class="grid_5">
 
-Daniel Burwen is an award winning Creative Director and thought leader on interactive narrative.   He has presented internationally at venues such as SXSW, San Diego Comicon, and IDFA.
+Daniel Burwen is an award winning Creative Director and thought leader on interactive narrative.   He has presented internationally at venues such as <strong>SXSW, San Diego Comicon, and IDFA</strong>.
 </br></br>
-He has over 10 years experience working across a variety of creative industries from design to console games (EA Games, Activision), to interactive media (Disney, Lucasfilm).
+He has over 10 years experience working across a variety of creative industries from design to console games (<strong>EA Games, Activision</strong>), to interactive media (<strong>Disney, Lucasfilm</strong>).
 </br></br>
-Daniel currently helms Cognito Comics, an interactive agency which recently shipped CIA: Operation Ajax, the award winning revolutionary 210 page interactive graphic novel for the iPad and iPhone.
-He lives in San Francisco and proudly serves as a judge for the Webby Awards.
+Daniel currently helms <a href="http://cognitocomics.com/" class="inline-link"><strong>Cognito Comics</strong></a>, an interactive agency which recently shipped <a href="http://www.cognitocomics.com/operationajax/" class="inline-link"><strong>CIA: Operation Ajax</strong></a>, the award winning revolutionary 210 page interactive graphic novel for the iPad and iPhone.
+He lives in San Francisco and proudly serves as a judge for the <strong>Webby Awards</strong>.
 
 <ul class="social">
 <li class="twitter">
@@ -26,7 +26,7 @@ He lives in San Francisco and proudly serves as a judge for the Webby Awards.
 </a>
 </li>
 <li class="email">
-<a href="http://www.linkedin.com/in/dabudesign" target="_blank">
+<a href="http://danielburwen.com/?page_id=2773" target="_blank">
 <img src="http://danielburwen.com/wp-content/uploads/2014/02/email.png" />
 </a>
 </li>
@@ -41,17 +41,20 @@ He lives in San Francisco and proudly serves as a judge for the Webby Awards.
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script>
 if ( $(window).width() < 720 ) {
-    $('.social').css('text-align', 'center');
     $('.social img').css('width', '82px');
     $('.social img').css('height', '64px');
     $('#dabu-headshot').css('padding', '0px 35px 35px 35px');
 } else {
-    $('.social').css('text-align', 'left');
     $('.social img').css('width', '41px');
     $('.social img').css('height', '32px');
     $('#dabu-headshot').css('padding', '0px');
+    if($(window).width() < 800) {
+        $('.social').css('text-align', 'center');
+    }
+    else {
+         $('.social').css('text-align', 'left');
+    }
 }
-
 $(window).resize( function() {
     if( $(window).width() < 720 ) {
         $('.social').css('text-align', 'center');
@@ -64,6 +67,12 @@ $(window).resize( function() {
         $('.social img').css('width', '41px');
         $('.social img').css('height', '32px');
         $('#dabu-headshot').css('padding', '0px');
+        if($(window).width() < 800) {
+            $('.social').css('text-align', 'center');
+        }
+        else {
+             $('.social').css('text-align', 'left');
+        }
     }
 });
 </script>

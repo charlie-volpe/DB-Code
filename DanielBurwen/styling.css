@@ -47,6 +47,11 @@ a:hover { color: #f00; }
 .nav-menu li a:hover,
 .pf_nav li a:hover { color: #f00; text-decoration: none; }
 
+.inline-link,
+.inline-link:hover {
+    text-decoration: none;
+}
+
 .social,
 .home-title,
 .speak-title {
@@ -67,6 +72,10 @@ a:hover { color: #f00; }
 .linkedin,
 .email {
     display: inline-block;
+}
+
+.email {
+    padding-left: 10px;
 }
 
 .banners {
