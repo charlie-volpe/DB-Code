@@ -22,7 +22,7 @@
 						<?php if ( esc_url( get_option( 'flow_logo' ) ) ) { ?>
 							<img class="site-logo" src="<?php echo esc_url( get_option( 'flow_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
 						<?php } ?>
-						<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+						<h1 class="site-title">Daniel <span class="plus-sign">+</span> Burwen</h1>
 						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 					</a>
 				</div>
