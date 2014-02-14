@@ -26,7 +26,7 @@ He lives in San Francisco and proudly serves as a judge for the <strong>Webby Aw
 </a>
 </li>
 <li class="email">
-<a href="http://danielburwen.com/?page_id=2773" target="_blank">
+<a href="mailto:dabu@cognitocomics.com">
 <img src="http://danielburwen.com/wp-content/uploads/2014/02/email.png" />
 </a>
 </li>
@@ -41,12 +41,8 @@ He lives in San Francisco and proudly serves as a judge for the <strong>Webby Aw
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script>
 if ( $(window).width() < 720 ) {
-    $('.social img').css('width', '82px');
-    $('.social img').css('height', '64px');
     $('#dabu-headshot').css('padding', '0px 35px 35px 35px');
 } else {
-    $('.social img').css('width', '41px');
-    $('.social img').css('height', '32px');
     $('#dabu-headshot').css('padding', '0px');
     if($(window).width() < 800) {
         $('.social').css('text-align', 'center');
@@ -58,14 +54,10 @@ if ( $(window).width() < 720 ) {
 $(window).resize( function() {
     if( $(window).width() < 720 ) {
         $('.social').css('text-align', 'center');
-        $('.social img').css('width', '82px');
-        $('.social img').css('height', '64px');
         $('#dabu-headshot').css('padding', '0px 35px 35px 35px');
     }
     else {
         $('.social').css('text-align', 'left');
-        $('.social img').css('width', '41px');
-        $('.social img').css('height', '32px');
         $('#dabu-headshot').css('padding', '0px');
         if($(window).width() < 800) {
             $('.social').css('text-align', 'center');
