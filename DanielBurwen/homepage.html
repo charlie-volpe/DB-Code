@@ -1,76 +1,83 @@
 <code>
-<ul class="home-title">
-<li class="ht-content">
-Daniel Burwen is an award winning Creative Director and thought leader on interactive narrative. He has presented internationally at venues such as <strong>SXSW, San Diego Comicon, and IDFA.</strong>
-</li>
-<li class="ht-content">
-He has over 10 years experience working across a variety of creative industries from design to console games (<strong>EA Games, Activision</strong>), to interactive media (<strong>Disney, Lucasfilm</strong>).
-</li>
-<li class="ht-content">
-Daniel currently helms <strong>Cognito Comics</strong>, an interactive agency which recently shipped <strong>CIA: Operation Ajax</strong>, the award winning revolutionary 210 page interactive graphic novel for the iPad and iPhone.
-</li>
-<li class="ht-content">
-He lives in San Francisco and proudly serves as a judge for the <strong>Webby Awards</strong>.
-</li>
-</ul>
+<div class="grid_2 txt-center"></div>
+<div class="grid_8 home-title">
+<div class="ht-content">
+I am an award winning creative director working across a broad range of industries from games to comics to mobile apps and web design.  My passion lies in discovering new techniques for successfully combining narrative and interface to tell stories in engaging and meaningful ways.
+</div>
+</div>
+<div class="grid_2 last"></div>
 
+<div class="grid_1"></div>
+<div class="grid_12">
 <ul class="social">
 <li class="twitter">
 <a href="https://twitter.com/DanielBurwen" target="_blank">
-<img src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/twitter.png" />
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/twitter.png" />
 </a>
 </li>
 <li class="linkedin">
 <a href="http://www.linkedin.com/in/dabudesign" target="_blank">
-<img src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/linkedin.png" />
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/linkedin.png" />
+</a>
+</li>
+<li class="email">
+<a href="mailto:dabu@cognitocomics.com">
+<img src="http://danielburwen.com/wp-content/uploads/2014/02/email.png" />
 </a>
 </li>
 </ul>
-
-<ul class="banners">
-<li class="cognito-banner">
-<a href="http://cognitocomics.com/" target="_blank">
-<img id="cog-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cognito-banner.png" />
-</a>
-</li>
-<li class="art-banner">
-<a href="http://danielburwen.com.s178151.gridserver.com/?page_id=3232">
-<img id="art-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-banner.png" />
-</a>
-</li>
-<li class="speaking-banner">
-<a href="http://danielburwen.com.s178151.gridserver.com/?page_id=4875">
-<img id="speak-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speaking-banner.png" />
-</a>
-</li>
-</ul>
-
 </div>
+<div class="grid_1 last"></div>
+<div class="grid_1"></div>
+<div class="grid_12" style="padding-bottom: 7px">
+<a href="http://danielburwen.com.s178151.gridserver.com/?page_id=4875">
+<img id="speak-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking-banner.png" />
+</a>
+</div>
+<div class="grid_12" style="padding-bottom: 7px">
+<a href="http://danielburwen.com.s178151.gridserver.com/?page_id=3232">
+<img id="art-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art-banner.png" />
+</a>
+</div>
+<div class="grid_12" style="padding-bottom: 7px">
+<a href="http://cognitocomics.com/" target="_blank">
+<img id="cog-banner" src="http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cognito-banner.png" />
+</a>
+</div>
+<div class="grid_1 last"></div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script>
-if( $(window).width() < 600 ) {
-    $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cog-ban-sq.png');
-    $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-ban-sq.png');
-    $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speak-ban-sq.png');
+$('.social').css('text-align', 'center');
+$('.home-title').css('text-align', 'center');
+if ( $(window).width() < 800 ) {
+    $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cog_mid.png');
+    $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art_mid.png');
+    $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking_mid.png');
+} else {
+    
 }
 
+
 $(window).resize( function() {
-    if( $(window).width() < 600 ) {
-        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cog-ban-sq.png');
-        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-ban-sq.png');
-        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speak-ban-sq.png');
-    }
-    else {
-        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/cognito-banner.png');
-        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/art-banner.png');
-        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/01/speaking-banner.png');
+    if( $(window).width() < 800 ) {
+        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cog_mid.png');
+        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art_mid.png');
+        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking_mid.png');
+    } else {
+        $('#cog-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/cognito-banner.png');
+        $('#art-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/art-banner.png');
+        $('#speak-banner').attr('src', 'http://danielburwen.com.s178151.gridserver.com/wp-content/uploads/2014/02/speaking-banner.png');
     }
 });
 </script>
-
 </code>
 
+<div class="grid_1"></div>
+<div class="grid_12">
 <div class="bottom-news">
 [content_block post_type="news" posts_per_page="3"]
 </div>
+</div>
+<div class="grid_1 last"></div>
