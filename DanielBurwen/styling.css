@@ -122,7 +122,8 @@ a:hover { color: #f00; }
 }
 
 .video-logo,
-.video-text {
+.video-text,
+.video-content {
     left: 0px;
     top: 0px;
     height:auto;
@@ -133,7 +134,6 @@ a:hover { color: #f00; }
 }
 
 .video-logo {
-    padding: 20px 10px 10px 10px;
     clear: both;
     width: 200px;
     text-align: center;
@@ -152,12 +152,20 @@ a:hover { color: #f00; }
     filter: grayscale(30%);
 }
 
-.video-text {
+.video-text,
+.video-content {
     padding: 10px;
     width:auto\9;
-    max-width: 65%;
     font-family: Roboto, sans-serif;
     overflow: hidden;
+}
+
+.video-content {
+    max-width: 100%;
+}
+
+.video-text {
+    max-width: 65%;
 }
 
 .vt-header,
@@ -228,6 +236,7 @@ a:hover { color: #f00; }
     float: none;
     font-family: Novecentowide, sans-serif;
     color: #000;
+<<<<<<< Updated upstream
 }
 
 .p-v:after{
@@ -235,6 +244,15 @@ a:hover { color: #f00; }
     clear: both;
 }
 
+=======
+}
+
+.p-v:after{
+    content: "";
+    clear: both;
+}
+
+>>>>>>> Stashed changes
 
 .venues{
     font-family: Roboto, sans-serif;
