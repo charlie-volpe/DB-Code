@@ -57,8 +57,8 @@
 					$exclude_include = false; //exclude - default, include = true
 				} ?>
 				
-				<ul class="pf_nav option-set menu-col-categories clearfix">
-					<li><a href="javascript:void(null);" data-project-category-id="all" data-option-value="*" class="<?php echo $selected; ?>"><?php _e('All Works', 'flowthemes'); ?></a></li>
+				<ul id="pf_nav" class="pf_nav option-set menu-col-categories clearfix">
+					<li><a href="javascript:void(null);" data-project-category-id="all" data-option-value="*" class="<?php echo $selected; ?>"><?php _e('All', 'flowthemes'); ?></a></li>
 					<?php
 					$tax_terms = get_terms( 'portfolio_category', array( 'hide_empty' => true ) );
 					foreach($tax_terms as $tax_term){
@@ -105,3 +105,15 @@
 	</div>
 	
 	<?php get_template_part('slideshow'); ?>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script>
+    $(function(){
+        if(!(window.location.href.indexOf("?page_id=3232") > -1)) {
+	    $("#pf_nav").addClass("dis-none");
+   	}
+    });
+</script>

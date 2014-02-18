@@ -186,13 +186,12 @@ a:hover { color: #f00; }
 .vt-content {
    clear: both;
    padding-top: 20px;
+   padding-bottom: 20px;
 }
 
 .video-section {
     padding-bottom: 10px;
 }
-
-/*.pf_nav { visibility: hidden; display: none; }*/
 
 .video-container {
     clear: both;
@@ -222,23 +221,25 @@ a:hover { color: #f00; }
     margin-bottom: -30px;
 }
 
-.sb-header {
-    font-family: Novecentowide, sans-serif;
+.p-v {
     font-size: 2em;
-    font-weight: bold;
     text-transform: uppercase;
+    padding: 40px 20px 0px 20px;
+    float: none;
+    font-family: Novecentowide, sans-serif;
     color: #000;
 }
 
-.sb-halfpage {
+.p-v:after{
+    content: "";
+    clear: both;
+}
+
+
+.venues{
     font-family: Roboto, sans-serif;
-    display: inline-block;
-    width: 49%;
-    min-width: 250px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    height: auto;
-    vertical-align: top;
+    overflow: hidden;
+    list-style-type: none;
 }
 
 .badges {
@@ -267,5 +268,8 @@ a:hover { color: #f00; }
     width: 100%;
     height: 100%;
     min-width: 250px;
-    margin-left: 57px;
+}
+
+.dis-none {
+    display: none;
 }
