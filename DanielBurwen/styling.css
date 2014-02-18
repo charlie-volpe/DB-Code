@@ -236,7 +236,6 @@ a:hover { color: #f00; }
     float: none;
     font-family: Novecentowide, sans-serif;
     color: #000;
-<<<<<<< Updated upstream
 }
 
 .p-v:after{
@@ -244,15 +243,6 @@ a:hover { color: #f00; }
     clear: both;
 }
 
-=======
-}
-
-.p-v:after{
-    content: "";
-    clear: both;
-}
-
->>>>>>> Stashed changes
 
 .venues{
     font-family: Roboto, sans-serif;
