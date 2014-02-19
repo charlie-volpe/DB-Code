@@ -1,0 +1,33 @@
+/* --------------------------------------------------------
+Import Basic Files
+-------------------------------------------------------- */
+
+@import url("normalize.css");				/* CSS Resets */
+@import url("layout.css");					/* Main Styles */
+@import url("shortcodes.css");				/* Shortcodes */
+@import url("grid.css");					/* Twitter Bootstrap Grid */
+@import url("mediaqueries.css");    		/* Media Queries */
+@import url("jquery.pageslide.css"); 
+
+/* --------------------------------------------------------
+Import Minimized Files
+-------------------------------------------------------- */
+/*
+@import url("normalize.css");				/* CSS Resets *!/
+@import url("layout.css");					/* Main Styles *!/
+@import url("shortcodes.min.css");				/* Shortcodes *!/
+@import url("grid.min.css");					/* Twitter Bootstrap Grid *!/
+@import url("mediaqueries.css");    		/* Media Queries *!/
+@import url("jquery.pageslide.css");*/
+
+#close-x{
+	float: right;
+	padding-right: 20px;
+}
+#close-x img {
+	opacity: 0.5;
+	cursor: pointer;
+}
+#close-x img:hover {
+	opacity: 0.8;
+}
