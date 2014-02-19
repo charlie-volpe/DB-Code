@@ -848,10 +848,6 @@
 		margin: 40px 0px 0px 0px;
 	}
 
-	.body-hh{
-		background: #1d0502;
-	}
-
 	#project-ajax a { text-decoration: none; border: none; }
 	 
 	#project-ajax a:hover { text-decoration: none; border: none; }
@@ -864,13 +860,8 @@
 		border-bottom: 1px #5f1608 solid;
 	}
 	
-	#project-ikm {
+	#project-hh, #project-ikm {
 		min-height: 100%;
-		margin-bottom: -59px;
-	}
-	
-	#project-hh {
-		min-height: 755px;
 		margin-bottom: -59px;
 	}
 

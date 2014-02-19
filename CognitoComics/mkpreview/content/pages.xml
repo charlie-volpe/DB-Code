@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<page type='cover'>
+		<thumb>thumbs/thumb_cover.png</thumb>
+		<asset>pages/cover.swf</asset>
+	</page>
+	<page type='tutorial'>
+		<thumb></thumb>
+		<asset>pages/tutorial.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_1.png</thumb>
+		<asset>pages/page_3.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_2.png</thumb>
+		<asset>pages/page_4.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_3.png</thumb>
+		<asset>pages/page_5.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_4.png</thumb>
+		<asset>pages/page_6.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_5.png</thumb>
+		<asset>pages/page_7.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_6.png</thumb>
+		<asset>pages/page_8.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_7.png</thumb>
+		<asset>pages/page_9.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_8.png</thumb>
+		<asset>pages/page_10.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_9.png</thumb>
+		<asset>pages/page_11.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_10.png</thumb>
+		<asset>pages/page_12.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_11.png</thumb>
+		<asset>pages/page_13.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_12.png</thumb>
+		<asset>pages/page_14.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_13.png</thumb>
+		<asset>pages/page_15.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_14.png</thumb>
+		<asset>pages/page_16.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_15.png</thumb>
+		<asset>pages/page_17.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_16.png</thumb>
+		<asset>pages/page_18.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_17.png</thumb>
+		<asset>pages/page_19.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_18.png</thumb>
+		<asset>pages/page_20.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_19.png</thumb>
+		<asset>pages/page_21.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_20.png</thumb>
+		<asset>pages/page_22.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_21.png</thumb>
+		<asset>pages/page_23.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_22.png</thumb>
+		<asset>pages/page_24.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_23.png</thumb>
+		<asset>pages/page_25.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_24.png</thumb>
+		<asset>pages/page_26.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_25.png</thumb>
+		<asset>pages/page_27.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_26.png</thumb>
+		<asset>pages/page_28.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_27.png</thumb>
+		<asset>pages/page_29.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_28.png</thumb>
+		<asset>pages/page_30.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_29.png</thumb>
+		<asset>pages/page_31.swf</asset>
+	</page>
+	<page type='content'>
+		<thumb>thumbs/thumb_30.png</thumb>
+		<asset>pages/page_32.swf</asset>
+	</page>
+	<page type='credits'>
+		<thumb>thumbs/thumb_credits.png</thumb>
+		<asset>pages/credits.swf</asset>
+	</page>
+</manifest>
