@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Operation Ajax</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="tweet/jquery.tweet.js" type="text/javascript"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.0.5"></script>
+
+	<!-- Optionally add button and/or thumbnail helpers -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=2.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=2.0.5"></script>
+
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=2.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=2.0.5"></script>
+    
+    
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			
+			padding: "5"
+			
+		});
+	});
+</script>
+    
+<script type='text/javascript'>
+        jQuery(function($){
+            $(".tweet").tweet({
+				filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
+                username: "OpAjaxComic",
+                join_text: "auto",
+                avatar_size: 32,
+                count: 1,
+				template: "{text}",
+                loading_text: "loading tweets..."
+
+            });
+        });
+	</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29846014-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
+        
+	<div id="header">
+		<div class="container">
+				<ul>
+					<li><a class="Facebook" href="http://www.facebook.com/operationajax">Facebook</a></li>
+					<li><a class="Twitter" href="http://www.twitter.com/OpAjaxComic">Twitter</a></li>
+					<li><a class="Google" href=" https://plus.google.com/110385560678999452266">Google</a></li>                    
+				</ul>
+				<div id="banner">
+					<h1>CIA: OPERATION AJAX</h1>
+				</div>
+				<div id="IntroOpAjax">
+					<h3>INTRODUCING CIA : OPERATION AJAX</h3>
+				</div>
+				<div id="likeBox">
+					<div style="margin-bottom: 5px;" class="fb-like" data-href="http://www.operationajax.com" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
+					<div class="g-plusone" data-size="tall" data-annotation="none"></div>
+
+				</div>
+			</div>    
+		</div>
+
+	<div id="content">
+
+		<div class="container">
+			<div id="main_content">
+       		    <iframe src="http://player.vimeo.com/video/39783630?title=0&amp;byline=0&amp;portrait=0&amp;color=661a15" width="686" height="386"></iframe>
+		
+            </div>
+		  <div class="sideBar">
+
+                    <ul>
+                   	  <li><a id="OpAjaxFull" href="http://itunes.apple.com/app/cia-operation-ajax/id472099770">Operation Ajax</a></li>
+                        <li><a id="nowOnIphone" href="http://itunes.apple.com/app/cia-operation-ajax-interactive/id506827798"><h3>Now on <span class="bigger">iPhone!</span></h3></a></li>
+                        <li><a id="AppStore" href="http://itunes.apple.com/app/cia-operation-ajax/id472099770?ls=1&mt=8">Available On the App Store</a></li>
+                        <li id="KindleFire">Available On the Kindle Fire</li>
+                    </ul>
+            </div>
+		</div>
+		</div>
+		<div class="container">
+		  <div id="second_content">
+					<blockquote>"One of the coolest media experiences I've seen on the iPad"<br /><em>-- New York Times</em></blockquote>
+					<blockquote>"You can just see the story. You can dig down deeper and see the actual CIA documents.  
+                    			You can identify with people in it.  And you can learn about a fledgeling democracy. 
+                 				<br/><em>-- Amy Goodman, DemocracyNow</em></blockquote>
+                 
+					<blockquote>"The content dynamically recomposes itself as you change panels
+                    			<br />-- the music slightly alters, as do the images. It creates a
+                                <br /> film-like setting that aims to enhance the experience without interfering with the reading." <br/>
+								<em>-- Huffington Post</em></blockquote>
+					
+                    <hr />
+					
+                    
+					<h3>CIA: Operation Ajax Graphic Novel</h3>
+					<p>Cognito is proud to present, in collaboration with best-selling author Stephen Kinzer, the true life spy thriller, CIA: Operation Ajax. As the value of oil explodes in world markets, global power brokers begin to take interest in the ruling political regimes of the Middle East. In Iran,<br>
+				    British agents have controlled oil exports for a generation. The shah is holding on to a shaky peace as a new charismatic leader enters the scene.</p>
+					<p><br>
+					  Secret deals, underground rumors of revolt, and dark plots of government overthrow are employed by American, British, and Persian agents. Iran&rsquo;s oil would flow, by any means necessary. Every actor has a stake in the game. No one can be trusted. Nothing is as it seems.</p>
+					<p>Learn about the incredible true history of the CIA plot to stage a coup of Iran&rsquo;s government. Recently declassified documents, historical photos, and video film reels from the era are embedded into the story. See Eisenhower, Churchill, the Dulles brothers, Mossadegh, and the Shah in a whole new light.</p>
+<p>	CIA : Operation Ajax is a revolutionary new way to experience a graphic novel on the iPad. 
+						Combining subtle animation with a full film score, the story unfolds in a groundbreaking cinematic reading experience.</p>
+                    <hr />
+                    
+                    
+            <h3>Awards</h3>
+            		<p><a href="http://www.webbyawards.com/webbys/current_honorees.php?media_id=127&category_id=829&season=16">Honoree - 16th Annual Webby Awards</a></p>
+					<p><a href="http://bestappever.com/awards/2011/winner/comc">Runner-Up  -148Apps Best App Ever Awards - Comic Category</a><br />
+			<em>- With over 1.5 million votes cast</em></p>
+					<p><a href="http://mobileappsshowdown.com/blog/2011/12/10/bringing-the-comic-to-the-next-level-cia-operation-ajax-amazes/">Runner-Up -  Mobile Apps Showdown - CES 2012</a><br /></p>
+					<p><a href="http://www.flurry.com/product/appspot/sxsw.html">Finalist - Flurry App Spotlight Awards</a><br />
+            <em>- One of the finalists out of more than 700 apps submitted</em></p>
+                    <blockquote>...&quot;we were blown by your layout of content, and believe all magazines<br />should take lessons from you guys.  The interactivity was amazing.&quot;</blockquote>
+			<p><a href="http://m.thefwa.com/site/cia-operation-ajax">Winner - FWA Mobile Of The Day (MOTD) Award for 26th January 2012.</a></p>
+
+					<br />
+					<br />
+					<br />
+					<hr/>
+					<br />
+                    
+
+		  </div>
+            
+			<div id="SecondsideBar">
+                <img src="images/Operation_Ajax_ipad_iphone.png" width="216"><br />
+				<a href="http://www.webbyawards.com/webbys/current_honorees.php?media_id=127&category_id=829&season=16"><img src="images/Operation_Ajax_Webby_Honoree.png"></a><br />
+                <a href="http://bestappever.com/awards/2011/winner/comc"><img src="images/OperationAjax_Best_App_Ever.png"></a><br />
+                <a href="http://mobileappsshowdown.com/blog/2011/12/10/bringing-the-comic-to-the-next-level-cia-operation-ajax-amazes/"><img src="images/OpAjax_Mobile_Apps_Showdown.gif" width="95" height="190" align="center"></a><br />
+              <a href="http://www.flurry.com/product/appspot/sxsw.html"><img src="images/Op_Ajax_Flurry_Spotlight.png" align="center"></a><br />
+              <a href="http://m.thefwa.com/site/cia-operation-ajax"><img src="images/OpAjax_FWA.png" align="center"></a><br />
+			</div>
+            <div>
+			  <div class="threeCol_r">
+					<h3>Technical Specs</h3>
+                        <p>- 210 page interactive comic with sound and animation</p>
+                        <p>- 22 character dossiers loaded with historical photos and notes</p>
+                        <p>- 9 historical newsreel videos</p>
+                        <p>- Authentic CIA documents</p>
+                        <p>- Extra content embedded throughout.</p>
+            	</div>
+              <div class="threeCol_r">
+                	<h3>Recent Reviews</h3>
+                  <p><strong>Astounding   <img src="images/Operation_Ajax_Five_Stars.gif" width="65" height="10" alt="Five Stars!"></strong></p>
+				  <p>	This comic is absolutely brilliant. The Story is superbly presented. The inclusion of historic documents and photographs puts this over the top. 
+					  I really hope this team does additional stories of this quality.</p>
+    
+					<p><strong>Can’t put it down!     <img src="images/Operation_Ajax_Five_Stars.gif" width="65" height="10" alt="Five Stars!"></strong></p>
+					<p>Love this graphic novel! Bends the notion of what comics/video/novels/
+					history can be as literary forms, And a great political education in the process! Congrats to the team!!!</p>
+              	</div>
+              <div class="threeCol">
+                	<h3>Gallery</h3>
+                <a href="images/gallery/gal_lrg_photo01.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo01.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto"></a>
+                <a href="images/gallery/gal_lrg_photo02.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo02.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto_r"></a>
+                <a href="images/gallery/gal_lrg_photo03.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo03.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto"></a>
+                <a href="images/gallery/gal_lrg_photo04.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo04.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto_r"></a>
+                <a href="images/gallery/gal_lrg_photo05.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo05.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto"></a>
+                <a href="images/gallery/gal_lrg_photo06.jpg" class="fancybox" rel="gallery1"><img src="images/gallery/gal_photo06.gif" width="99" height="99" alt="Launch Gallery" class="galleryPhoto_r"></a></div>
+            </div>
+		</div>
+	</div>
+    
+	<div id="footer"> 
+		<div class="container">
+			<div class="sideBar">
+				<h3>RECENT NEWS</h3>				
+				<div class="tweet"></div>
+				<a class="button" href="http://www.twitter.com/OpAjaxComic">Follow Us</a>
+            </div>
+            
+		<div class="sideBar">
+        <!-- Begin MailChimp Signup Form -->
+			<h3>SUBSCRIBE</h3>
+				<p style="margin-bottom: 0px;">Join our mailing list!</p>
+				<div id="mc_embed_signup">
+					<form	action="http://cognitocomics.us4.list-manage.com/subscribe/post?u=aa22c7f5c7a8e0946789b117e&amp;id=58b0b11674" 
+							method="post" id="mc-embedded-subscribe-form" 
+							name="mc-embedded-subscribe-form" 
+							class="validate"
+							target="_blank">
+	
+
+					<div class="mc-field-group" style="">
+	
+						<input	type="text"
+                        		value="First"
+                                name="FIRSTNAME" 
+                                class="" 
+                                id="mce-FIRSTNAME" 
+                                style="
+									float: left;
+									width: 80px;
+									border-radius: 3px;
+									background-color: #ffffff;
+									border: solid 1px hsl(0, 0%, 15%);
+									color: #333;">
+					</div>
+					<div class="mc-field-group">
+	
+						<input	type="text" 
+                        		value="Last" 
+                                name="LASTNAME" 
+                                class="" 
+                                id="mce-LASTNAME" 
+                                style="
+                                    float: left;
+                                    width: 80px;
+                                    clear: right;
+                                    margin-left: 5px;
+                                    border-radius: 3px; 
+                                    background-color: #fff; 
+                                    border: solid 1px hsl(0, 0%, 15%); 
+                                    color: #333;">
+					</div>
+					<div class="mc-field-group">
+						<input	type="email" 
+                        		value="Email" 
+                                name="EMAIL" 
+                                class="required email" 
+                                id="mce-EMAIL" 
+                                style="
+                                    width: 200px;
+                                    margin-bottom: 10px;
+                                    border-radius: 3px; 
+                                    background-color: #fff; 
+                                    border: solid 1px #333; 
+                                    color: #333;">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>	
+                    <div class="button" style="padding: 2px 0 6px 0;">
+                            <input	type="submit" 
+                            		value="Subscribe" 
+                                    name="subscribe" 
+                                    id="mc-embedded-subscribe" 
+                                    class="button" 
+                                    style="
+                                        color: #EBFFE5;
+                                        height: 26px;
+                                        width: 95px;
+                                        background: none;
+                                        padding: 0;
+                                        margin: 0;
+                                        border-style: none;">
+                                        
+					</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+   			</div>
+  			<div class="sideBar" style="margin: 0;">
+				<h3>PRESS INQUIRIES</h3>
+				<p>To discuss potential coverage or interviews, please use the below button to contact us. </p>	
+				<a href="mailto:ikka@cognitocomics.com" class="button">Press</a>
+			</div>
+		</div>
+		<div id="copyrightText"><strong>Created with love in San Francisco, Ca.</strong> &copy; 2010-2011 Cognito Comics. All Rights Reserved.
+        </div>
+	</div>
+
+</body>
+</html>
